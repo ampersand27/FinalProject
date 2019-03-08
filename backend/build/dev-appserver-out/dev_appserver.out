@@ -1,0 +1,27 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+M?r 07, 2019 10:31:48 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFORMATION: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\ampersand\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'F:\PRG\_Udacity\BuildItBigger\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+M?r 07, 2019 10:31:48 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFORMATION: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+M?r 07, 2019 9:31:48 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNUNG: Your working directory, (F:\PRG\_Udacity\BuildItBigger\FinalProject\backend) is not equal to your 
+web application root (F:\PRG\_Udacity\BuildItBigger\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+M?r 07, 2019 9:31:48 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFORMATION: jetty-6.1.x
+M?r 07, 2019 9:31:53 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFORMATION: Started SelectChannelConnector@localhost:8080
+M?r 07, 2019 9:31:53 AM com.google.appengine.tools.development.AbstractModule startup
+INFORMATION: Module instance default is running at http://localhost:8080/
+M?r 07, 2019 9:31:53 AM com.google.appengine.tools.development.AbstractModule startup
+INFORMATION: The admin console is running at http://localhost:8080/_ah/admin
+M?r 07, 2019 10:31:53 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFORMATION: Dev App Server is now running
+M?r 07, 2019 10:32:19 AM com.google.appengine.tools.development.LocalResourceFileServlet doGet
+WARNUNG: No file found for: /favicon.ico
+M?r 07, 2019 10:32:20 AM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeByteBufferOperations
+WARNUNG: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
+M?r 07, 2019 10:32:20 AM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeArrayOperations
+WARNUNG: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
